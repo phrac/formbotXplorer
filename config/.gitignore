@@ -2,3 +2,11 @@
 __pycache__/
 *.py[cod]
 
+# Ignore all Moonraker backups
+.moonraker.conf.bkp
+*.moonraker.conf.bkp*
+
+# Ignore all timestamped configuration backups
+# This catches files ending in numbers/dashes (like dates)
+*.conf.[0-9-]*
+*.bkp
